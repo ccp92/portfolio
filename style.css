@@ -5,23 +5,23 @@ body, html {
 }
 
 div {
-  padding: 1em;
 }
 
 #p1 {
   /* Image for first parallax */
-  background-image: url("back1.jpeg");  
+  background-image: url("assets/para/back1.jpeg"); 
+  height: 85%
 }
 
 #p2 {
   /* Image for second parallax */
-  background-image: url("back2.jpeg");
+  background-image: url("assets/para/back2.jpeg");
 }
 
 .parallax {
 
   /* Full height */
-  height: 79%; 
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -30,10 +30,27 @@ div {
   background-size: cover;
 }
 
-h1 {
+#title {
+  height: 15%;
+}
+
+#title, h1 {
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
 p {
   text-align: justify;
+}
+
+#portfolio {
+  padding: 1em;
+}
+
+.card {
+  padding: 1em;
+  background-color: white;
 }
