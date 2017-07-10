@@ -66,6 +66,12 @@ p {
   background-color: white;
 }
 
-.row {
+/*.row {
 	padding-bottom: 1em;
-}
+}*/
+
+.alt-grid [class*="col-"] {padding-left:0;padding-right:0}
+.alt-grid .row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.alt-grid .container-fluid {width:100% !important;max-width:none !important;padding:0 !important;}
