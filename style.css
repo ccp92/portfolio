@@ -15,7 +15,8 @@ div {
 
 #p2 {
   /* Image for second parallax */
-  background-image: url("assets/para/back2.jpeg");
+  /*background-image: url("assets/para/back2.jpeg");*/
+  background-color: darkgrey;
 }
 
 .parallax {
