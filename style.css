@@ -4,13 +4,23 @@ body, html {
   font-family: Roboto;
 }
 
-div {
+#logo {
+	text-align: right;
+}
+
+.logo-left {
+	color: #5B9BD5;
+}
+
+.logo-right {
+	color: white;
+	font-weight: bold;
 }
 
 #p1 {
   /* Image for first parallax */
   background-image: url("assets/para/back1.jpeg"); 
-  height: 85%
+  height: 80%
 }
 
 #p2 {
@@ -32,7 +42,7 @@ div {
 }
 
 #title {
-  height: 15%;
+  height: 20%;
 }
 
 #title, h1 {
@@ -54,4 +64,8 @@ p {
 .card {
   padding: 1em;
   background-color: white;
+}
+
+.row {
+	padding-bottom: 1em;
 }
