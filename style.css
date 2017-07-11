@@ -24,9 +24,7 @@ body, html {
 }
 
 #p2 {
-  /* Image for second parallax */
-  /*background-image: url("assets/para/back2.jpeg");*/
-  background-color: darkgrey;
+  /* background-color: darkgrey; */
 }
 
 .parallax {
@@ -60,15 +58,6 @@ p {
 #portfolio {
   padding: 1em;
 }
-
-.card {
-  padding: 1em;
-  background-color: white;
-}
-
-/*.row {
-	padding-bottom: 1em;
-}*/
 
 .alt-grid [class*="col-"] {padding-left:0;padding-right:0}
 .alt-grid .row {margin-left:0;margin-right:0}
