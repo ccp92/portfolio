@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Christopher Parsons</title>
     <link rel="stylesheet" href="style.css">
     <!--Local CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <!--Roboto Font-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" crossorigin="anonymous"></script>
+		<!--jQuery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <!--Bootstrap-->
+		<script src="port.js"></script>
+		<!--Local js-->
   </head>
-  <body>
-    <div class="parallax"></div>
-    <div>
-      <h1>Christopher Parsons</h1>
+  <body class="alt-grid">
+    <div id="p1" class="parallax container-fluid">
+			<div id="logo">
+				<span class="logo-left">chris</span> <span class="logo-right">parsons</span>
+			</div>
+		</div>
+    <div id="title" class="container-fluid">
+      <h1>Front-End Developer</h1>
+			<h2>Christopher Parsons</h2>
+    </div>
+    <div class="container-fluid">
       <p>Hi there, I'm Chris, a would be developer from South-East London.</p>
       <p>I've had plenty of experience dealing with web based software from a support side and I'm currently progressing with Front End web development using freeCodeCamp.</p>
       <p>Please feel free to take a look at some of the codepen projects I've completed below. These codepens were created as part of freeCodeCamp's Front End development projects.</p>
+    </div>
+    <div id="p2" class="parallax container-fluid">
+      <div id="portfolio" class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="http://christopherparsons.me/portfolio/quote/quote.html" target="_blank">
+              <img id="card1" class="img-responsive port-image" src="assets/previews/quotebw.png"/>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="http://christopherparsons.me/portfolio/amy/tribute.html" target="_blank">
+              <img id="card2" class="img-responsive port-image" src="assets/previews/amybw.png"/>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#">
+              <img id="card3" class="img-responsive port-image" src="assets/test/quad3bw.jpeg"/>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="#">
+              <img id="card4" class="img-responsive port-image" src="assets/test/quad4bw.jpeg"/>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
