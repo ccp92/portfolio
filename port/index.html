@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+  <script type = "text/javascript" src="toolbar.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="assets\favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="assets\favicon.ico" type="image/x-icon"/>
+  <title>Christopher Parsons</title>
+</head>
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">CCP</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+
+
+<body>
+	<div id="holding" class="container-fluid">
+
+	<!-- Personal Profile -->
+    <div id="profile" class="container-fluid card">
+		<div class="materialContent">
+			<h2>Christopher Parsons</h2>
+			<img id="profilePic" src="http://res.cloudinary.com/dlngt3qrx/image/upload/v1471439880/twitterprofile_uiiiwn.jpg" class="img-responsive" />
+			<p>Hi there, I'm Chris, a would be developer from South-East London.</p>
+			<p>I've had plenty of experience dealing with web based software from a support side and I'm currently progressing with Front End web development using <a href="http://www.freecodecamp.com/ccp92" target="_blank">freeCodeCamp</a>.</p>
+			<p>Please feel free to take a look at some of the codepen projects I've completed below. These codepens were created as part of freeCodeCamp's Front End development projects.</p>
+		</div>
+    </div>
+
+	<!-- Portfolio -->
+    <div id="portfolio" class="container-fluid card">
+      <h2>Portfolio</h2>
+      <div class="row">
+        <div class="col-sm-6">
+			<div class="card">
+				<a href="portfolio/amy/tribute.html">
+					<div class="materialContent">
+						<img src="http://res.cloudinary.com/dlngt3qrx/image/upload/v1471424448/Tribute_Page_Screenshot_i2lwof.png" class="img-responsive" alt="Amy Winehouse Tribute Page" />
+					</div>
+					<div class="materialBanner">
+						<h4>Amy Winehouse Tribute Page</h4>
+						<p>Html and CSS (Bootstrap)</p>
+					</div>
+				</a>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+			<div class="card">
+				<a href="http://codepen.io/ccp92/full/mEoPpP/">
+					<div class="materialContent">
+             			<img src="http://res.cloudinary.com/dlngt3qrx/image/upload/v1471438908/Portfolio_Screenshot_xixwv7.png" class="img-responsive" alt="Portfolio" />
+					</div>
+					<div class="materialBanner">
+						<h4>Portfolio Page WIP</h4>
+						<p>Html, CSS (Bootstrap) and Javascript</p>
+					</div>
+				</a>
+			</div>
+			
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+			<div class="card">
+				<a href="portfolio/quote/quote.html">
+					<div class="materialContent">
+             			<img src="assets/quotePage.png" class="img-responsive" alt="Portfolio" />
+					</div>
+					<div class="materialBanner">
+						<h4>Random Quote Generator</h4>
+						<p>Html, CSS (Bootstrap), Javascript (jQuery) with an API</p>
+					</div>
+				</a>
+			</div>
+		</div>
+      </div>
+    </div>
+
+
+    <div id="contact" class="container-fluid card">
+      <div class="materialContent">
+        <h2>Contact</h2>
+        <p> To contact me, please feel free to email me at mail@christopherparsons.me or get in touch via my social media links below.</p>
+      </div>
+
+      <div id="social">
+      <p>
+        <a href="https://www.twitter.com/ccp92" target="_blank">
+          <img src="assets\twitter.png" class="img-responsive socialIcon" alt="Twitter" />
+        </a>
+        <a href="https://github.com/ccp92" target="_blank">
+          <img src="assets\github.png" class="img-responsive socialIcon" alt="GitHub" />
+        </a>
+		<a href="https://uk.linkedin.com/in/ccp92" target="_blank">
+          <img src="assets\linkedin.png" class="img-responsive socialIcon" alt="GitHub" />
+        </a>
+      </p>
+      </div>
+      
+    </div>
+
+
+    <div>Icons made by <a href="http://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> and <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </div>
+</body>
+
+</html>

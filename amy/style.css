@@ -1,0 +1,14 @@
+body {
+  margin: 1em;
+  padding-top: 1em;
+}
+#content {
+  background-color: #ffe6e6;
+  padding: 1em;
+}
+.rounded {
+  border-radius: 1em;
+}
+figure {
+  padding-bottom: 1em;
+}
