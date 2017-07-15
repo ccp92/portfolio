@@ -1,20 +1,20 @@
 $(document).ready(function() {
-	$('#card1').hover(function() {
+	$('#quote').hover(function() {
 		$(this).attr('src', 'assets/previews/quote.png');
 	}, function() {
 		$(this).attr('src', 'assets/previews/quotebw.png');
 	});
 	
-	$('#card2').hover(function() {
+	$('#amy').hover(function() {
 		$(this).attr('src', 'assets/previews/amy.png');
 	}, function() {
 		$(this).attr('src', 'assets/previews/amybw.png');
 	});
 	
-	$('#card3').hover(function() {
-		$(this).attr('src', 'assets/test/quad3.jpeg');
+	$('#port').hover(function() {
+		$(this).attr('src', 'assets/previews/port.png');
 	}, function() {
-		$(this).attr('src', 'assets/test/quad3bw.jpeg');
+		$(this).attr('src', 'assets/previews/portbw.png');
 	});
 	
 	$('#card4').hover(function() {

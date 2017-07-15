@@ -4,10 +4,19 @@ body, html {
   font-family: Roboto;
 }
 
+#about {
+	padding: 1em;
+}
+
 #logo {
   text-align: right;
   font-size: 14pt;
   padding-right: 0.5em;
+}
+
+p {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 
 .logo-left {
@@ -16,13 +25,19 @@ body, html {
 
 .logo-right {
 	color: white;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 
 #p1 {
   /* Image for first parallax */
   background-image: url("assets/para/back1.jpeg"); 
-  height: 80%
+  height: 100%;
+	position: relative;
+}
+
+#title {
+	position: absolute;
+	bottom: 0;
 }
 
 #p2 {
@@ -41,16 +56,8 @@ body, html {
   background-size: cover;
 }
 
-#title {
-  height: 20%;
-}
-
 #title, h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
+  text-align: left;
 }
 
 p {
