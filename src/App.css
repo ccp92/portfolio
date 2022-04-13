@@ -1,38 +1,56 @@
+:root {
+  --main-accent-color: #162be3;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.intro {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dev-name {
+  color: var(--main-accent-color);
+}
+
+.action-button {
+  border: 3px solid black;
+  padding: 0.5em;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.action-button:visited {
+  border: 3px solid black;
+  padding: 0.7em;
+  color: black;
+  text-decoration: none;
+}
+
+.main-action-button {
+  border: 3px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  margin-right: 1em;
+}
+
+.main-action-button:visited {
+  border: 3px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  margin-right: 1em;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
 }
