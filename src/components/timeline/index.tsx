@@ -3,7 +3,7 @@ import "./index.css";
 const Timeline = (): JSX.Element | null => {
   return process.env.REACT_APP_FEATURE_TIMELINE === "true" ? (
     <div className="timeline">
-      <h1>Timeline</h1>
+      <h1>Experience</h1>
       <div className="job-card">
         <h2 className="company">Babylon Health</h2>
         <h3 className="position">Software Engineer</h3>
