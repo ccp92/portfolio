@@ -6,7 +6,7 @@ const Intro = (): JSX.Element => {
       <div>
         <img src={profileImage} alt="Chris Parsons" className="profile-image" />
         <p className="header-text">
-          Hey there, I'm <span className="dev-name">Chris Parsons</span>
+          Hey, I'm <span className="dev-name">Chris Parsons</span>
         </p>
         <p className="header-subtitle">A Software Engineer based in London.</p>
         <div className="button-row">
