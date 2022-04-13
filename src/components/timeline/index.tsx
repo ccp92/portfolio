@@ -1,5 +1,5 @@
 const Timeline = (): JSX.Element | null => {
-  return process.env.REACT_APP_FEATURE_TIMELINE ? (
+  return process.env.REACT_APP_FEATURE_TIMELINE === "true" ? (
     <div className="timeline">
       <h1>Timeline</h1>
       <div className="job-card">
