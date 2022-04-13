@@ -1,5 +1,5 @@
 :root {
-  --main-accent-color: #162be3;
+  --main-accent-color: #1182A8;
 }
 
 .App {
@@ -60,6 +60,12 @@
 .button-row {
   display: flex;
   justify-content: center;
+}
+
+.profile-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
 
 .row {

@@ -1,7 +1,10 @@
+import profileImage from "./ChrisParsons.jpeg";
+
 const Intro = (): JSX.Element => {
   return (
     <div className="intro">
       <div>
+        <img src={profileImage} alt="Chris Parsons" className="profile-image" />
         <p className="header-text">
           Hey there, I'm <span className="dev-name">Chris Parsons</span>
         </p>
