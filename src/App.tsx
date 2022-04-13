@@ -10,10 +10,10 @@ const App = () => {
   const featureFlagOn = () => {
     return (
       <div className="row">
-        <div className="column">
+        <div className="column-left">
           <Intro />
         </div>
-        <div className="column">
+        <div className="column-right">
           <Timeline />
         </div>
       </div>

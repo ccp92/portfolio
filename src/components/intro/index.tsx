@@ -3,9 +3,9 @@ const Intro = (): JSX.Element => {
     <div className="intro">
       <div>
         <p className="header-text">
-          Hey there, I'm <span className="dev-name">Chris Parsons</span>, a
-          Software Engineer.
+          Hey there, I'm <span className="dev-name">Chris Parsons</span>
         </p>
+        <p className="header-subtitle">A Software Engineer based in London.</p>
         <div className="button-row">
           <a
             className="action-button main-action-button"
