@@ -1,4 +1,4 @@
-import profileImage from "./ChrisParsons.jpeg";
+import profileImage from "./ChrisParsons.webp";
 
 const Intro = (): JSX.Element => {
   return (
