@@ -25,6 +25,7 @@ const App = () => {
     return (
       <div className="row">
         <div className="column-left">
+          <ThemeButton toggleTheme={toggleTheme} theme={theme} />
           <Intro />
         </div>
         <div className="column-right">

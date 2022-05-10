@@ -1,5 +1,3 @@
-import "./index.css";
-
 const Timeline = (): JSX.Element | null => {
   return process.env.REACT_APP_FEATURE_TIMELINE === "true" ? (
     <div className="timeline">
