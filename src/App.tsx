@@ -22,7 +22,6 @@ const App = () => {
       lightThemeMq.addEventListener("change", () => mqListener);
       return () => lightThemeMq.removeEventListener("change", () => mqListener);
     }, []);
-    console.log(isLightTheme);
     return isLightTheme;
   };
 
