@@ -35,7 +35,7 @@ const ThemeButton = (props: { toggleTheme: () => void; theme: string }) => {
       onClick={() => props.toggleTheme()}
       aria-label={"theme-switcher"}
     >
-      {props.theme === "light" ? sunIcon() : moonIcon()}
+      {props.theme === "light" ? moonIcon() : sunIcon()}
     </button>
   );
 };
