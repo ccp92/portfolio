@@ -1,9 +1,19 @@
 :root {
-  --main-accent-color: #1182A8;
+  --main-accent-color: #1182a8;
+  --background: white;
+  --text-primary: black;
+}
+
+[data-theme="dark"] {
+  --main-accent-color: #1182a8;
+  --background: #353955;
+  --text-primary: white;
 }
 
 .App {
   text-align: center;
+  background-color: var(--background);
+  color: var(--text-primary);
 }
 
 .intro {
@@ -31,17 +41,17 @@
 }
 
 .action-button {
-  border: 3px solid black;
+  border: 3px solid var(--text-primary);
   padding: 0.5em;
-  color: black;
+  color: var(--text-primary);
   font-weight: bold;
   text-decoration: none;
 }
 
 .action-button:visited {
-  border: 3px solid black;
+  border: 3px solid var(--text-primary);
   padding: 0.7em;
-  color: black;
+  color: var(--text-primary);
   text-decoration: none;
 }
 
@@ -70,7 +80,7 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
 }
 
 .column-left {
@@ -79,4 +89,11 @@
 
 .column-right {
   flex: 60%;
+}
+
+.theme-button {
+  padding-top: 1em;
+  background-color: transparent;
+  border: none;
+  color: var(--text-primary);
 }
