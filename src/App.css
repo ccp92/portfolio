@@ -119,3 +119,7 @@
 .job-card {
   padding: 1em;
 }
+
+.company {
+  text-decoration: underline;
+}
