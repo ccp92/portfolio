@@ -30,7 +30,11 @@ const ThemeButton = (props: { toggleTheme: () => void; theme: string }) => {
   };
 
   return (
-    <button className="theme-button" onClick={() => props.toggleTheme()}>
+    <button
+      className="theme-button"
+      onClick={() => props.toggleTheme()}
+      aria-label={"theme-switcher"}
+    >
       {props.theme === "light" ? sunIcon() : moonIcon()}
     </button>
   );
