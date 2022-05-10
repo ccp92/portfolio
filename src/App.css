@@ -91,10 +91,6 @@
   flex: 60%;
 }
 
-.App .theme-button {
-  text-align: right;
-}
-
 .theme-button {
   padding-top: 1em;
   background-color: transparent;
