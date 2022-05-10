@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-const ThemeButton = (props: { toggleTheme: () => void; theme: string; }) => {
+const ThemeButton = (props: { toggleTheme: () => void; theme: string }) => {
   const sunIcon = () => {
     return (
       <svg
