@@ -95,13 +95,11 @@
 
 @media screen and (max-width: 540px) {
   .column-left {
-    width: 100%;
     flex: 100%;
   }
 
   .column-right {
-    width: 0%;
-    flex: 0%;
+    flex: 100%;
   }
 }
 
