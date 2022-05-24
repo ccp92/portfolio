@@ -21,6 +21,29 @@ const Timeline = (): JSX.Element | null => {
         <h2 className="company">Babylon Health</h2>
         <h3 className="position">Software Engineer</h3>
         <p className="dates">January 2022 - Present</p>
+        <p>
+          My current position at Babylon Health as part of the web-platform team
+          involves building tools and procedures for product teams to deliver
+          features quickly to meet user needs.
+        </p>
+        <p>
+          This work involves getting involved in a wide variety of work; from
+          creating typescript packages, to designing guidelines, to building
+          development pipelines.
+        </p>
+        <p>
+          A large part of the work I do on building these packages is ensuring
+          that they are not only functional and meet the needs of the various
+          teams within the organisation, but that they are also flexible and
+          maintainable. By building in this manner, as new requirements arise or
+          prior requirements change, the cost for implementing these changes is
+          low.
+        </p>
+        <p>
+          In addition to this, I help to design and write out guidelines for
+          other developers to work with, ensuring a common development flow
+          across teams when working with our platform.
+        </p>
       </div>
 
       {upArrow()}
