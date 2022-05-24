@@ -61,10 +61,10 @@ const Timeline = (): JSX.Element | null => {
         </p>
         <p>
           The projects I worked on have varied from greenfield projects such as
-          improving collating contractual data from local councils, to migrating
-          legacy systems to cloud platforms, to working on large scale internal
-          CRM systems. This work was carried out in an agile way, and pairing
-          and mobbing were common aspects of my daily workflow.
+          improvements in the collation of contractual data from local councils,
+          to migrating legacy systems to cloud platforms, to working on large
+          scale internal CRM systems. This work was carried out in an agile way,
+          and pairing and mobbing were common aspects of my daily workflow.
         </p>
         <p>
           Whilst being a consultant required me to pick up multiple tech stacks
