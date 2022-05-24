@@ -37,6 +37,30 @@ const Timeline = (): JSX.Element | null => {
         <h2 className="company">Real Asset Management</h2>
         <h3 className="position">Technical Support Consultant</h3>
         <p className="dates">November 2013 - March 2018</p>
+        <p>
+          My main role of supporting clients over the phone and email enabled me
+          to cultivate my ability to communicate effectively and with a
+          professional demeanour. In addition, the unscripted support required
+          me to be able to adapt quickly to varying queries and problems, whilst
+          also being able to both understand a query and deliver concise and
+          clearly understandable responses promptly. I also went on-site with
+          clients and provided training and other supplementary services.
+        </p>
+        <p>
+          In addition to my main support duties at the company, I also expanded
+          my responsibilities to other areas. An example of this was regularly
+          being involved in the QA process for the software and the accurate
+          logging of issues for developers to be able to review.
+        </p>
+        <p>
+          Within my first year at the company, I also gained a secondary role of
+          looking after documentation and help files for the software suite. The
+          process for this exposed me to both documentation writing and
+          publishing. I completed this through the use of Adobe RoboHelp to
+          create both chm and html files. I managed these additional
+          responsibilities without impacting my core role of support through
+          appropriate time management and prioritisation of tasks.
+        </p>
       </div>
     </div>
   ) : null;
