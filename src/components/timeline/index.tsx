@@ -52,6 +52,32 @@ const Timeline = (): JSX.Element | null => {
         <h2 className="company">Made Tech</h2>
         <h3 className="position">Software Engineer</h3>
         <p className="dates">June 2018 - December 2021</p>
+        <p>
+          I initially joined Made Tech via their academy and in my time at the
+          company progressed to being a Software Engineer. My work at Made Tech
+          as a consultant for public sector clients gave me strong skills as a
+          generalist, helping me to jump into existing codebases and hit the
+          ground running.
+        </p>
+        <p>
+          The projects I worked on have varied from greenfield projects such as
+          improving collating contractual data from local councils, to migrating
+          legacy systems to cloud platforms, to working on large scale internal
+          CRM systems. This work was carried out in an agile way, and pairing
+          and mobbing were common aspects of my daily workflow.
+        </p>
+        <p>
+          Whilst being a consultant required me to pick up multiple tech stacks
+          based upon client needs, I am particularly strong with javascript,
+          typescript, react and express as a tech stack.
+        </p>
+        <p>
+          The consultancy side of my role also gave me strong skills in dealing
+          with end-users and stakeholders, allowing me to parse large amounts of
+          information and requirements into clear goals. I was then able to
+          communicate this effectively back to clients and deal with concerns
+          and queries in a professional manner.
+        </p>
       </div>
 
       {upArrow()}
