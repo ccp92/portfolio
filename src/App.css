@@ -123,3 +123,7 @@
 .company {
   text-decoration: underline;
 }
+
+.dates {
+  font-style: italic;
+}
