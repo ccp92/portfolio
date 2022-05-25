@@ -14,7 +14,7 @@ const upArrow = () => {
 };
 
 const Timeline = (): JSX.Element | null => {
-  return process.env.REACT_APP_FEATURE_TIMELINE === "true" ? (
+  return (
     <div className="timeline">
       <h1>Experience</h1>
       <div className="job-card">
@@ -112,7 +112,7 @@ const Timeline = (): JSX.Element | null => {
         </p>
       </div>
     </div>
-  ) : null;
+  );
 };
 
 export default Timeline;
