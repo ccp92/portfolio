@@ -1,4 +1,4 @@
-import JobCard from "../jobCard";
+import JobCard, { JobCardProps } from "../jobCard";
 import jobs from "../../data/jobHistory.json";
 
 const upArrow = () => {
@@ -17,7 +17,7 @@ const upArrow = () => {
 };
 
 const Timeline = () => {
-  const jobsCards = jobs.map((job: any, index: number) => {
+  const jobsCards = jobs.map((job: JobCardProps, index: number) => {
     return (
       <>
         <JobCard
