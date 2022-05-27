@@ -1,4 +1,4 @@
-interface JobCardProps {
+export interface JobCardProps {
   company: string;
   position: string;
   dates: string;
