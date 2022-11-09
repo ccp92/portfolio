@@ -48,6 +48,7 @@
   color: var(--text-primary);
   font-weight: bold;
   text-decoration: none;
+  margin-right: 1em;
 }
 
 .action-button:visited {
