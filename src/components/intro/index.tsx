@@ -28,10 +28,10 @@ const Intro = (): JSX.Element => {
           </a>
           <a
             target="_blank"
-            rel="me"
+            rel="me noreferrer noopener"
             className="action-button"
             href="https://tech.lgbt/@ccp92"
-            >
+          >
             Mastodon
           </a>
         </div>
