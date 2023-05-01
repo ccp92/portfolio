@@ -4009,10 +4009,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-icons@npm:^1.10.4":
-  version: 1.10.4
-  resolution: "bootstrap-icons@npm:1.10.4"
-  checksum: d76333e46dc75bc5b8942211d91703af5033e186f31bc7de06d7d816ba5ee7f70cd94c07b00d36321b104c0b86f5305936602b43504c7407168a00b6c2d2713d
+"bootstrap-icons@npm:^1.10.5":
+  version: 1.10.5
+  resolution: "bootstrap-icons@npm:1.10.5"
+  checksum: 8a0cfbd237723793dfb04106fdeed7f86bb59249a01a1623b325bf84d61306c22bb46d3df0795f80f0e77d43cd7485273571c253ee7910eb67fae9489691daad
   languageName: node
   linkType: hard
 
@@ -9391,7 +9391,7 @@ __metadata:
     "@types/node": ^18.16.0
     "@types/react": ^18.2.0
     "@types/react-dom": ^18.0.11
-    bootstrap-icons: ^1.10.4
+    bootstrap-icons: ^1.10.5
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
@@ -12125,11 +12125,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
   version: 5.0.4
-  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=1f5320"
+  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6a1fe9a77bb9c5176ead919cc4a1499ee63e46b4e05bf667079f11bf3a8f7887f135aa72460a4c3b016e6e6bb65a822cb8689a6d86cbfe92d22cc9f501f09213
+  checksum: bb309d320c59a26565fb3793dba550576ab861018ff3fd1b7fccabbe46ae4a35546bc45f342c0a0b6f265c801ccdf64ffd68f548f117ceb7f0eac4b805cd52a9
   languageName: node
   linkType: hard
 
