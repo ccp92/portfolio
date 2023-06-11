@@ -1,15 +1,19 @@
 :root {
-  --main-accent-color: #1182a8;
+  --main-accent-color: #8b3991;
   --background: white;
   --text-primary: black;
-  --timeline-background: lightblue;
+  --timeline-background: #dbbfdd;
+  --highlight-color: #f0e5f1;
+  --main-action-button: #8b3991;
 }
 
 [data-theme="dark"] {
-  --main-accent-color: #1182a8;
-  --background: #353955;
+  --main-accent-color: #8b3991;
+  --background: #6e2e82;
   --text-primary: white;
-  --timeline-background: #1182a8;
+  --timeline-background: #8b3991;
+  --highlight-color: #dbbfdd;
+  --main-action-button: #c495c8;
 }
 
 .App {
@@ -40,6 +44,7 @@
 
 .dev-name {
   color: var(--main-accent-color);
+  background: var(--highlight-color);
 }
 
 .action-button {
@@ -59,14 +64,14 @@
 }
 
 .main-action-button {
-  border: 3px solid var(--main-accent-color);
-  color: var(--main-accent-color);
+  border: 3px solid var(--main-action-button);
+  color: var(--main-action-button);
   margin-right: 1em;
 }
 
 .main-action-button:visited {
-  border: 3px solid var(--main-accent-color);
-  color: var(--main-accent-color);
+  border: 3px solid var(--main-action-button);
+  color: var(--main-action-button);
   margin-right: 1em;
 }
 
