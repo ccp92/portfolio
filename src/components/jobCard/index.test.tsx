@@ -6,7 +6,7 @@ import { faker } from "@faker-js/faker";
 describe("JobCard", () => {
   it("renders elements correctly", () => {
     const jobInfo: JobCardProps = {
-      company: faker.company.companyName(),
+      company: faker.company.name(),
       position: faker.name.jobTitle(),
       dates: faker.date.recent().toLocaleDateString(),
       description: [
