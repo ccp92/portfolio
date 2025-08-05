@@ -3,7 +3,15 @@
     "company": "Stotles",
     "position": "Software Engineer",
     "dates": "May 2023 - Present",
-    "description": []
+    "description": [
+      "For over two years at Stotles, I've worked as a Full-Stack Engineer on the App team, building the user-facing features that help businesses grow their public sector sales. I specialize in turning complex data into intuitive, high-impact user experiences while modernizing our tech stack for future growth.",
+      "During my time at Stotles, I have worked on the development of an innovative AI Q&A tool, enabling users to query complex government procurement data using natural language. This system leverages Retrieval-Augmented Generation (RAG) and Elasticsearch semantic search to provide contextual, AI-driven answers.",
+      "I also engineered a complete rewrite of legacy UI table components, creating a highly extensible and reusable system in TypeScript. This initiative eliminated significant tech debt and enables us to rapidly build and manage views for various data types across the application.",
+      "I also led the modernization of our core saved search functionality, migrating legacy Ruby on Rails routes to a robust GraphQL API powered by NestJS. This project unified the saved search experience across all data entities and dramatically improved the UI/UX.",
+      "I drove significant user engagement and business growth by implementing a critical change to notification email logic that resulted in a large uptick in returning users, and by implementing the company's first self-serve payment system, unlocking a major new revenue channel. This was a key factor in the company's growth and success.",
+      "Beyond coding, I also lead a cross-functional Design System working group with designers and engineers to ensure alignment between Figma designs and our codebase, improving maintainability and development velocity.",
+      "Key Technologies: TypeScript, NestJS, GraphQL, React, Ruby on Rails, PostgreSQL, Elasticsearch, AWS, S3, Terraform."
+    ]
   },
   {
     "company": "Babylon Health",
