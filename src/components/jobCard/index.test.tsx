@@ -7,7 +7,7 @@ describe("JobCard", () => {
   it("renders elements correctly", () => {
     const jobInfo: JobCardProps = {
       company: faker.company.name(),
-      position: faker.name.jobTitle(),
+      position: faker.person.jobTitle(),
       dates: faker.date.recent().toLocaleDateString(),
       description: [
         faker.hacker.phrase(),
