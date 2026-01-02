@@ -12,7 +12,7 @@ const Intro = (): JSX.Element => {
         <div className="button-row">
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer me"
             className="action-button main-action-button"
             href="https://github.com/ccp92"
           >
@@ -20,7 +20,7 @@ const Intro = (): JSX.Element => {
           </a>
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer me"
             className="action-button"
             href={`mailto:${process.env.REACT_APP_EMAIL_ADDRESS}`}
           >
