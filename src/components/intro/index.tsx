@@ -1,6 +1,6 @@
 import profileImage from "./profileImage.webp";
 
-const Intro = (): JSX.Element => {
+const Intro = () => {
   return (
     <div className="intro">
       <div>
